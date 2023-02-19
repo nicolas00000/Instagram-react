@@ -43,7 +43,9 @@ function SugestaoUser(){
                         <img src={item.img} />
                         <div class="texto">
                             <div class="nome"> {item.name} </div>
-                            <div class="razao">{item.segueVc ? "Segue você" : "Novo no Instagram" }</div>
+                            <div class="razao">
+                                {item.segueVc ? "Segue você" : "Novo no Instagram" }
+                            </div>
                         </div>
                     </div>
 
