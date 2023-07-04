@@ -136,6 +136,7 @@ body {
   text-overflow: ellipsis;
   text-align: center;
   height: 14px;
+  border-radius: 50%;
 }
 
 .stories .setinha {
@@ -165,9 +166,14 @@ body {
   font-weight: 500;
 }
 
+video{
+  width:100%;
+}
+
 .post .topo .usuario, .post .topo .acoes {
   display: flex;
   align-items: center;
+  border-radius: 50%;
 }
 
 .post .topo img {
@@ -178,6 +184,7 @@ body {
 
 .post .usuario, .post .topo img, .post .fundo img, .post ion-icon, .post strong {
   cursor: pointer;
+  border-radius: 50%;
 }
 
 .post .conteudo img {
@@ -264,8 +271,9 @@ body {
 }
 
 .sidebar .sugestoes img {
-  width: 32px;
+  width: 32px;  
   height: 32px;
+  border-radius: 50%;
 }
 
 .sidebar .sugestoes .seguir {
