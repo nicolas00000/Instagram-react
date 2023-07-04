@@ -2,10 +2,10 @@ export default function Slidebar(){
     return(
         <div class="sidebar">
             <div class="usuario">
-                <img src="assets/img/catanacomics.svg" />
+                <img src="assets/img/eu.jpg" />
                 <div class="texto">
-                    <strong>catanacomics</strong>
-                    Catana
+                    <strong>__nicolas_m</strong>
+                    nicolas
                 </div>
             </div>
 
@@ -22,11 +22,11 @@ export default function Slidebar(){
 )}
 
 let users = [
-{name: "bad.vibes.memes", img:"assets/img/bad.vibes.memes.svg", segueVc: true},
-{name: "adorable_animals", img:"assets/img/bad.vibes.memes.svg", segueVc: false},
-{name: "smallcutecats", img:"assets/img/bad.vibes.memes.svg", segueVc: false},
-{name: "razoesparaacreditar", img:"assets/img/bad.vibes.memes.svg", segueVc: true},
-{name: "chibirdart", img:"assets/img/bad.vibes.memes.svg", segueVc: false}
+{name: "bad.vibes.memes", img:"assets/img/gato-telefone.svg", segueVc: true},
+{name: "razoesparaacreditar", img:"assets/img/razoesparaacreditar.svg", segueVc: false},
+{name: "smallcutecats", img:"assets/img/smallcutecats.svg", segueVc: false},
+{name: "euridisso", img:"assets/img/bad.vibes.memes.svg", segueVc: true},
+{name: "chibirdart", img:"assets/img/chibirdart.svg", segueVc: false}
 ]
 
 function SugestaoUser(){
