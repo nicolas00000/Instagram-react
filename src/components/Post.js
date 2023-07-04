@@ -2,6 +2,70 @@ import Acoes from "./Acoes"
 export default function Post(){
     return(
         <div class="posts">
+
+<div class="post">
+            <div class="topo">
+            <div class="usuario">
+                <img src="assets/img/eu.jpg" />
+                __nicolas_m
+            </div>
+            <div class="acoes">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            </div>
+
+            <div class="conteudo">
+                <img src="assets/img/eupost.png" />
+            </div>
+
+            <div class="fundo">
+            
+            {/* botao de curtida e comentario */}
+            <Acoes/>
+
+            <div class="curtidas">
+                <img src="assets/img/gag.svg" />
+                <div class="texto">
+                Curtido por <strong>gag</strong> e <strong>outras 53 pessoas</strong>
+                </div>
+            </div>
+            </div>
+        </div>
+
+
+        <div class="post">
+            <div class="topo">
+            <div class="usuario">
+                <img src="assets/img/eu.jpg" />
+                __nicolas_m
+            </div>
+            <div class="acoes">
+                <ion-icon name="ellipsis-horizontal"></ion-icon>
+            </div>
+            </div>
+
+            <div class="conteudo">
+            {/* <img src="assets/img/eupost.png" /> */}
+                <video controls autoPlay >
+                <source src="assets/video/video.mp4" type="video/mp4" />
+                Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+
+            <div class="fundo">
+            
+            {/* botao de curtida e comentario */}
+            <Acoes/>
+
+            <div class="curtidas">
+                <img src="assets/img/razoesparaacreditar.svg" />
+                <div class="texto">
+                Curtido por <strong>razoesparaacreditar</strong> e <strong>outras 104 pessoas</strong>
+                </div>
+            </div>
+            </div>
+        </div>
+
         <div class="post">
             <div class="topo">
             <div class="usuario">
